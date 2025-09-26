@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ArogyaCodes - Healthcare Management System",
+  title: "ARogyaCodes - Healthcare Management System",
   description: "Modern healthcare management system with FHIR R4 standards and comprehensive patient care solutions",
 };
 

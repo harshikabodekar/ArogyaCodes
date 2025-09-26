@@ -105,10 +105,11 @@ export default function LoginForm({ onLogin, loading }) {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, type: 'spring' }}
-              className="mx-auto mb-6"
+              className="mx-auto w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-4"
             >
-              <ArogyaLogoLarge showText={true} />
+              <Shield className="w-8 h-8 text-white" />
             </motion.div>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">ArogyaCodes</h1>
             <p className="text-gray-600">Sign in to your account</p>
           </div>
 

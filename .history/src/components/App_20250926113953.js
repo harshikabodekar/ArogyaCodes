@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { AuthProvider, useAuth } from '@/contexts/AuthContext';
 import Layout from '@/components/layout/Layout';
 import LoginForm from '@/components/ui/LoginForm';
-import { ArogyaLogoXL } from '@/components/ui/ArogyaLogo';
 
 // Doctor/Hospital Components
 import DoctorDashboard from '@/components/doctor/Dashboard';
@@ -167,9 +166,6 @@ function AppContent() {
 
     return (
       <div className="text-center py-12">
-        <div className="flex justify-center mb-6">
-          <ArogyaLogoXL showText={true} />
-        </div>
         <h3 className="text-lg font-medium text-gray-900 mb-2">Welcome to ArogyaCodes</h3>
         <p className="text-gray-500">Select a menu item to get started.</p>
       </div>

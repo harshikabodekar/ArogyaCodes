@@ -15,7 +15,6 @@ import {
 import { useAuth } from '@/contexts/AuthContext';
 import Button from '../ui/Button';
 import Badge from '../ui/Badge';
-import { ArogyaLogoSmall } from '../ui/ArogyaLogo';
 
 export default function Navbar({ onMenuToggle, isSidebarOpen }) {
   const { user, logout } = useAuth();
@@ -52,8 +51,11 @@ export default function Navbar({ onMenuToggle, isSidebarOpen }) {
             
             <div className="flex items-center ml-4 lg:ml-0">
               <div className="flex-shrink-0 flex items-center">
-                <motion.div whileHover={{ scale: 1.05 }}>
-                  <ArogyaLogoSmall showText={false} />
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center"
+                >
+                  <Shield className="w-5 h-5 text-white" />
                 </motion.div>
                 <div className="ml-3">
                   <h1 className="text-lg font-semibold text-gray-900">ArogyaCodes</h1>

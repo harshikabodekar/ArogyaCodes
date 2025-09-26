@@ -131,12 +131,9 @@ export default function DoctorDashboard({ onNavigate }) {
     <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-        <div className="flex items-center space-x-4">
-          <ArogyaLogoMedium showText={false} className="hidden sm:block" />
-          <div>
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-900">Dashboard</h1>
-            <p className="text-gray-600 mt-1 text-sm sm:text-base">Welcome back! Here's your overview for today.</p>
-          </div>
+        <div>
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-900">Dashboard</h1>
+          <p className="text-gray-600 mt-1 text-sm sm:text-base">Welcome back! Here's your overview for today.</p>
         </div>
         <div className="flex items-center space-x-2 text-xs sm:text-sm text-gray-500">
           <Calendar className="w-4 h-4 flex-shrink-0" />

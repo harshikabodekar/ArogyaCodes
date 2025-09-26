@@ -240,10 +240,7 @@ export default function Sidebar({ isOpen, currentPath, onNavigate }) {
 
           {/* Footer */}
           <div className="p-4 border-t border-gray-200">
-            <div className="flex flex-col items-center">
-              <div className="mb-2">
-                <ArogyaLogoSmall showText={false} />
-              </div>
+            <div className="text-center">
               <p className="text-xs text-gray-500 mb-2">ArogyaCodes System</p>
               <div className="flex items-center justify-center space-x-2 text-xs text-gray-400">
                 <span className="w-2 h-2 bg-green-400 rounded-full"></span>
