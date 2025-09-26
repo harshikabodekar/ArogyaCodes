@@ -54,7 +54,7 @@ export default function Layout({ children, currentPath, onNavigate }) {
           
           <main className={cn(
             'flex-1 min-h-[calc(100vh-4rem)] transition-all duration-300',
-               'ml-0 lg:ml-10 w-full'
+               'ml-0 lg:ml-64 w-full'
           )}>
             <div className="p-3 sm:p-4 lg:p-6 max-w-full mx-auto">
               <div className="max-w-screen-xl mx-auto">
